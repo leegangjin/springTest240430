@@ -1,0 +1,27 @@
+package com.ezen.test.controller;
+
+import javax.inject.Inject;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.ezen.test.service.BoardService;
+
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+
+@Controller
+@RequestMapping("/board/*")
+@Slf4j
+@RequiredArgsConstructor
+
+
+
+public class BoardController {
+	
+	
+	@Inject
+	private BoardService bsv;
+
+}

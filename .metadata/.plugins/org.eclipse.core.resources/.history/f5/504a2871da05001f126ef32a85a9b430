@@ -1,0 +1,12 @@
+package com.ezen.test.handler;
+
+import org.springframework.web.multipart.MultipartFile;
+
+public class FileHandler {
+
+	public Object uploadFiles(MultipartFile[] files) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

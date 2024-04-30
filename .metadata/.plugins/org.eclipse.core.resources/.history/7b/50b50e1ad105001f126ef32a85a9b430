@@ -1,0 +1,61 @@
+/**
+ * 
+ */
+console.log("test");
+
+document.getElementById('trigger').addEventListener('click',()=>{
+    document.getElementById('file').click();
+})
+
+
+//정규표현식을 사용하여 파일의 형식을 제한
+//실행파일 막기(exe, bat, sh , mis , dll, jar)
+//파일 사이즈 체크 (20M 사이즈보다 크면 막기)
+//이미지 파일만 올리기 (jpg , jpeg , gif , png , bmp)
+
+const regExp = new RegExp("\.(exe|sh|bat|mis|dll|jar)$");
+const regExpImg = new RegExp(".\(jpg|jpeg|gif|png|bmo)$");
+
+//Validation : 규칙 설정
+//return 0 / 1로 리턴
+
+function fileValidation(name, fileSize){
+    let fileName = name.toLowerCase(); //파일 이름을 전부 소문자로 변경
+    if(regExp.test(fileName)){ //파일 확장자에 실행파일 확장자가 있다면...
+        return 0;
+    }else if(fileSize > maxSize){
+        return 0;
+    }else if(!regExpImg.test(fileName)){ //이미지 파일이 아니면...
+        return 0;
+    }else{
+        return 1;
+    }
+}
+
+    //첨부 파일에 따라 등록이 가능한지 체크 함수
+    document.addEventListener('change',(e)=>{
+        console.log(e.target);
+        if(e.target.id=== 'file'){
+            //여러개의 파일이 배열로 들어옴
+            const fileObject = document.getElementById('file').files;
+            console.log(fileObject);
+
+            let div = document.getElementById('fileZone');
+            div.innerHTML='';//기존에 등록한 파일이 있다면 지우기.
+            let ul =`<ul class ="list-group">`;
+
+
+        }
+    })
+}
+/*
+
+<ul class ="list-group">
+<li class ="list-group-item"><div>업로드 가능</div>파일이름 </li>
+<span class="badge text-bg-success">파일 사이즈</span>
+<li class ="list-group-item"><div>업로드 불가능</div>파일이름 </li>
+<span class="badge text-bg-danger">파일 사이즈</span>
+</ul>
+
+/  
+*/

@@ -1,0 +1,55 @@
+
+4월 25, 2024 18:03:29.528 NEW SESSION
+4월 25, 2024 18:03:29.528 [26912:30156:0425/180329.475:ERROR:device_event_log_impl.cc(195)] [18:03:29.475] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+4월 25, 2024 18:03:29.877 Created TensorFlow Lite XNNPACK delegate for CPU.
+4월 25, 2024 18:24:15.572 [26912:14048:0425/182415.572:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+4월 25, 2024 18:27:37.437 [26912:14048:0425/182737.436:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+4월 26, 2024 14:43:53.143 [26912:27348:0426/144353.142:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_TIMED_OUT)
+4월 26, 2024 14:43:54.369 [26912:14048:0426/144354.369:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+4월 26, 2024 14:44:11.746 [26912:30156:0426/144411.746:ERROR:device_event_log_impl.cc(195)] [14:44:11.745] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+4월 26, 2024 14:44:11.758 [26912:30156:0426/144411.758:ERROR:device_event_log_impl.cc(195)] [14:44:11.756] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: �궗�슜 媛��뒫�븳 �뜲�씠�꽣媛� �뾾�뒿�땲�떎. (0x103)
+4월 26, 2024 14:44:11.871 [26912:30156:0426/144411.871:ERROR:device_event_log_impl.cc(195)] [14:44:11.870] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+4월 26, 2024 14:44:30.666 [26912:30156:0426/144430.666:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Connection failed (-106).
+4월 26, 2024 14:44:42.273 [26912:14048:0426/144442.273:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+4월 26, 2024 14:46:04.436 [26912:14048:0426/144604.436:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+4월 26, 2024 14:46:30.695 [26912:20292:0426/144630.691:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+4월 26, 2024 14:47:45.707 [26912:20292:0426/144745.706:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+4월 26, 2024 15:12:14.157 [26912:14048:0426/151214.157:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+4월 26, 2024 15:12:14.158 [26912:31648:0426/151214.158:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+4월 26, 2024 15:22:36.636 [26912:14048:0426/152236.635:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+4월 26, 2024 15:24:22.410 [26912:30156:0426/152422.410:ERROR:device_event_log_impl.cc(195)] [15:24:22.410] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+4월 26, 2024 15:24:22.434 [26912:30156:0426/152422.434:ERROR:device_event_log_impl.cc(195)] [15:24:22.433] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+4월 26, 2024 15:24:22.450 [26912:30156:0426/152422.450:ERROR:device_event_log_impl.cc(195)] [15:24:22.450] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: �궗�슜 媛��뒫�븳 �뜲�씠�꽣媛� �뾾�뒿�땲�떎. (0x103)
+4월 26, 2024 15:24:22.565 [26912:30156:0426/152422.565:ERROR:device_event_log_impl.cc(195)] [15:24:22.565] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+4월 26, 2024 15:25:45.738 [26912:30156:0426/152545.738:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 26, 2024 15:25:45.738 [26912:30156:0426/152545.738:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 26, 2024 15:26:09.124 [26912:14048:0426/152609.123:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+4월 28, 2024 22:46:57.781 [26912:30156:0428/224657.781:ERROR:device_event_log_impl.cc(195)] [22:46:57.778] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+4월 28, 2024 22:46:57.844 [26912:30156:0428/224657.844:ERROR:device_event_log_impl.cc(195)] [22:46:57.843] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+4월 28, 2024 22:46:57.900 [26912:30156:0428/224657.900:ERROR:device_event_log_impl.cc(195)] [22:46:57.890] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: �궗�슜 媛��뒫�븳 �뜲�씠�꽣媛� �뾾�뒿�땲�떎. (0x103)
+4월 28, 2024 22:47:01.821 [26912:30156:0428/224701.821:ERROR:device_event_log_impl.cc(195)] [22:47:01.818] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+4월 28, 2024 23:20:09.248 [26912:30156:0428/232009.248:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+4월 28, 2024 23:30:49.842 [26912:14048:0428/233049.842:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+4월 29, 2024 04:38:33.948 [26912:14048:0429/043833.948:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+4월 29, 2024 04:38:33.969 [26912:20292:0429/043833.969:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_IO_SUSPENDED)
+4월 29, 2024 09:41:47.283 [26912:14048:0429/094147.283:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+4월 29, 2024 09:41:47.291 [26912:20292:0429/094147.290:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+4월 29, 2024 09:42:01.728 [26912:30156:0429/094201.728:ERROR:device_event_log_impl.cc(195)] [09:42:01.727] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+4월 29, 2024 09:42:01.735 [26912:30156:0429/094201.734:ERROR:device_event_log_impl.cc(195)] [09:42:01.734] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: �궗�슜 媛��뒫�븳 �뜲�씠�꽣媛� �뾾�뒿�땲�떎. (0x103)
+4월 29, 2024 09:42:01.843 [26912:30156:0429/094201.843:ERROR:device_event_log_impl.cc(195)] [09:42:01.842] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+4월 29, 2024 10:04:56.981 [26912:30156:0429/100456.981:ERROR:interface_endpoint_client.cc(707)] Message 5 rejected by interface blink.mojom.WidgetHost
+4월 29, 2024 10:06:25.972 [26912:30156:0429/100625.972:ERROR:interface_endpoint_client.cc(707)] Message 5 rejected by interface blink.mojom.WidgetHost
+4월 29, 2024 10:29:38.173 [26912:14048:0429/102938.172:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+4월 29, 2024 11:26:45.180 [26912:14048:0429/112645.180:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+4월 29, 2024 11:32:11.904 [26912:14048:0429/113211.903:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+4월 29, 2024 12:09:55.419 [26912:30156:0429/120955.419:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+4월 29, 2024 12:25:00.36 [26912:14048:0429/122500.036:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+4월 29, 2024 12:35:39.703 [26912:14048:0429/123539.702:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+4월 29, 2024 13:28:27.653 [26912:14048:0429/132827.653:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+4월 29, 2024 14:26:47.226 [26912:14048:0429/142647.225:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+4월 29, 2024 15:30:16.889 [26912:14048:0429/153016.889:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+4월 29, 2024 15:38:11.47 [26912:14048:0429/153811.047:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+4월 29, 2024 15:38:17.864 [26912:30156:0429/153817.864:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 29, 2024 15:38:17.865 [26912:30156:0429/153817.864:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 29, 2024 15:38:17.865 [26912:30156:0429/153817.864:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+4월 29, 2024 15:38:17.865 [26912:30156:0429/153817.864:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
