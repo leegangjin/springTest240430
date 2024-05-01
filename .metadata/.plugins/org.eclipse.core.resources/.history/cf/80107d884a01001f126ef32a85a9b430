@@ -1,7 +1,0 @@
-package com.ezen.service;
-
-public class BoardServiceImpl implements BoardService{
-
-	
-	
-}

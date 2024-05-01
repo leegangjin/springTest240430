@@ -16,8 +16,7 @@ public interface BoardDAO {
 
 	BoardVO getDetail(int bno);
 
-	int update(BoardVO bvo);
-
+	int update(BoardVO bvo);g
 	void remove(int bno);
 
 	void updateRead_count(int bno);
