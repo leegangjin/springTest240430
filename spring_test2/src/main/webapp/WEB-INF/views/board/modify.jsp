@@ -26,7 +26,7 @@
 		</div>
 		<div class="mb-3">
 			<label for="r" class="form-label">regDate</label> <input type="text"
-				class="form-control" id="r" placeholder="reg_date" name="reg_daet"
+				class="form-control" id="r" placeholder="regDate" name="regDate"
 				value="${bvo.regDate }" readonly="readonly">
 		</div>
 		<div class="mb-3">
