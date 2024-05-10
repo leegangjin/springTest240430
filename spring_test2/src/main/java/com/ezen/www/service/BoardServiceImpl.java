@@ -53,16 +53,20 @@ public class BoardServiceImpl implements BoardService{
 	}
 
 	@Override
-	public BoardVO getDetail(int bno) {
+	public BoardDTO getDetail(int bno) {
 		// TODO Auto-generated method stub
-		return bdao.getDetail(bno);
+		//bvo, flist 묶어서 dto return 
+		BoardVO bvo = bdao.getDetail(bno);
+		List<FileVO>flist =  fdao.getList(bno);
+		BoardDTO bdto=	new BoardDTO(bvo, flist);
+		return bdto;
 	}
 
-	@Override
-	public int modify(BoardVO bvo) {
-		// TODO Auto-generated method stub
-		return bdao.update(bvo);
-	}
+//	@Override
+//	public int modify(BoardVO bvo) {
+//		// TODO Auto-generated method stub
+//		return bdao.update(bvo);
+//	}
 
 	@Override
 	public int remove(int bno) {
@@ -75,6 +79,41 @@ public class BoardServiceImpl implements BoardService{
 		// TODO Auto-generated method stub
 		return bdao.getTotal(pgvo);
 	}
+
+	@Override
+	public int removeFile(String uuid) {
+		// TODO Auto-generated method stub
+		return fdao.removeFile(uuid);
+	}
+
+	@Override
+	public int modify(BoardVO bvo) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int update(BoardDTO boardDTO) {
+		// TODO Auto-generated method stub
+		int isOk = bdao.update(boardDTO.getBvo());
+		if(boardDTO.getFlist()==null) {
+			return isOk;
+		}
+		if(isOk >0&&boardDTO.getFlist().size()>0) {
+			for(FileVO fvo : boardDTO.getFlist()) {
+				fvo.setBno(boardDTO.getBvo().getBno());
+				isOk*=fdao.insertFile(fvo);
+			}
+		}
+		return isOk;
+	}
+
+//	@Override
+//	public void cmtFileUpdate() {
+//		// TODO Auto-generated method stub
+//		bdao.cmtCountUpdate();
+//		bdao.fileCountUpdate();
+//	}
 
 	
 	

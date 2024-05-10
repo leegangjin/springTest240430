@@ -36,6 +36,24 @@
 	<select id="selectOneBno" resultType="int">
 	select max(bno) from board where isDel ="N";
 	</select>
+	
+<!-- 		<update id="cmtCountUpdate">
+	update board b set cmtQty = (
+select count(bno) from comment where bno=b.bno)
+	
+	</update>
+	
+	<update id="fileCountUpdate">
+	update board b set hasFile = (
+select count(bno) from file where bno=b.bno)
+	
+	</update>
+	
+	<update id="updateRead_count">
+		update board set readCount = readCount + 1 where
+		bno = #{bno}
+	</update> -->
+	
 
 	<!-- search line -->
 

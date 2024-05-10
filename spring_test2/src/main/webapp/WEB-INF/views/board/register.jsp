@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+    <%@ taglib uri="http://www.springframework.org/security/tags" prefix="sec" %>
 
 
 <jsp:include page="../layout/header.jsp"></jsp:include>
@@ -13,11 +15,13 @@
 				type="text" class="form-control" name="title" id="t"
 				placeholder="Title">
 		</div>
+		 <sec:authentication property="principal.uvo.nickName" var="authNick" />
 		<div class="mb-3">
-			<label for="formGroupExampleInput" class="form-label">writer</label>
-			<input type="text" class="form-control" name="writer" id="w" value=""
-				placeholder="Writer">
+			<label for="formGroupExampleInput" class="form-label">Writer</label>
+			<input type="text" class="form-control" name="writer" id="w" value="${authNick }"
+			 readonly="readonly">
 		</div>
+		
 		
 		<div class="mb-3">
 			<label class="input-group-text">content</label>

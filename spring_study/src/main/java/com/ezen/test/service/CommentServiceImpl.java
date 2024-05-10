@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.ezen.test.domain.CommentVO;
+import com.ezen.test.repository.BoardDAO;
 import com.ezen.test.repository.CommentDAO;
 
 import lombok.RequiredArgsConstructor;

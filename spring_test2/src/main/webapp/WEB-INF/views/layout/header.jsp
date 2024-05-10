@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+    <%@ taglib uri="http://www.springframework.org/security/tags" prefix="sec" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,30 +22,79 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
-        
-        <li class="nav-item">
-          <a class="nav-link" href="/board/register">게시판 글쓰기</a>
-        </li>
+     
       
         <li class="nav-item">
           <a class="nav-link" href="/board/list">게시판 보기</a>
         </li>
-        <c:if test="${ses eq null }">
+        
+        <sec:authorize access="isAnonymous()">
+        
         <li class="nav-item">
-          <a class="nav-link" href="/member/register">회원가입</a>
+          <a class="nav-link" href="/user/register">회원가입</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/member/login">로그인</a>
+          <a class="nav-link" href="/user/login">로그인</a>
         </li>
-        </c:if>
-        <c:if test="${ses ne null }">
+        
+        </sec:authorize>
+       
+        
+        
+        <!-- access의 권한이 있는지 확인  -->
+        <!--현재 사용자의 정보 : pirncipal  -->
+        <sec:authorize access="isAuthenticated()">
+        <sec:authentication property="principal.uvo.email" var="authEmail" />
+        <sec:authentication property="principal.uvo.nickName" var="authNick" />
+        <sec:authentication property="principal.uvo.authList" var="auths" />
+           
+        
+        
+        <c:choose>
+        <c:when test="${auths.stream().anyMatch(authVO -> authVO.auth.equals('ROLE_ADMIN')).get() }">
         <li class="nav-item">
-          <a class="nav-link" href="/member/logout">로그아웃</a>
+          <a class="nav-link" href="/board/register">게시판 글쓰기</a>
         </li>
+        
+         <li class="nav-item">
+          <a class="nav-link" href="/user/userlist">회원리스트 ${authNick }(${authEmail } / ADMIN)</a>
+        </li>
+        </c:when>
+        <c:otherwise>
+         
         <li class="nav-item">
+          <a class="nav-link" href="/user/UserModify">회원정보수정 ${authNick }(${authEmail })</a>
+        </li>
+        
+        </c:otherwise>
+        </c:choose>
+        
+       
+        
+        <li class="nav-item">
+          <a class="nav-link" href="" id="logoutLink">로그아웃</a>
+        </li>
+        
+        <form action="/user/logout" method="post" id="logoutForm">
+        <!-- 인증된 계정의 이메일  -->
+        <input type="hidden" name="email" value="${authEmail }">
+        
+        
+        </form>
+        
+        
+        </sec:authorize>
+        
+       
+        
+      
+        
+        
+        
+        <%-- <li class="nav-item">
           <a class="nav-link" href="/member/modify">${ses.id }(${ses.email }) Welcome!!</a>
-        </li>
-        </c:if>
+        </li> --%>
+       
         <li class="nav-item">
           <a class="nav-link" href="http://www.google.com" target="_blank" >Link</a>
         </li>
@@ -52,4 +102,12 @@
     </div>
   </div>
 </nav>
+
+<script type="text/javascript">
+document.getElementById('logoutLink').addEventListener('click',(e)=>{
+	    e.preventDefault(); 
+	   document.getElementById('logoutForm').submit();
+	});
+
+</script>
 

@@ -13,14 +13,14 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
 @EnableWebMvc
-@ComponentScan(basePackages = {"com.ezen.www.controller", "com.ezen.www.service", "com.ezen.www.handler"} )
+@ComponentScan(basePackages = {"com.ezen.www.controller", "com.ezen.www.service", "com.ezen.www.handler" ,"com.ezen.www.exception"} )
 public class ServletConfiguation implements WebMvcConfigurer {
 
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		// resources 경로 설정 / 니증에 파일 업로드 경로 설정 추가
 		registry.addResourceHandler("/re/**").addResourceLocations("/resources/");
-		registry.addResourceHandler("/up/**").addResourceLocations("file://C:\\myProject\\java\\fileUpload\\");
+		registry.addResourceHandler("/up/**").addResourceLocations("file:///C:\\myProject\\java\\fileUpload\\");
 	}
 
 	@Override

@@ -1,5 +1,0 @@
-package com.ezen.service;
-
-public interface BoardService {
-
-}

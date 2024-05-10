@@ -20,6 +20,10 @@ public interface BoardDAO {
 	int getTotal(PagingVO pgvo);
 
 	int selectOneBno();
+//
+//	void cmtCountUpdate();
+//
+//	void fileCountUpdate();
 
 
 

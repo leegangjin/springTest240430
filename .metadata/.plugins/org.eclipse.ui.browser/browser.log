@@ -193,3 +193,73 @@
 5월 03, 2024 16:20:37.762 [396:26596:0503/162037.761:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
 5월 03, 2024 17:31:38.385 [396:26596:0503/173138.384:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
 5월 03, 2024 17:38:29.548 [396:26596:0503/173829.547:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+5월 03, 2024 18:14:35.679 [396:26596:0503/181435.678:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5월 03, 2024 22:41:05.189 [396:26596:0503/224105.188:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+5월 06, 2024 15:57:33.122 [396:16968:0506/155733.122:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_TIMED_OUT)
+5월 06, 2024 15:57:33.202 [396:9292:0506/155733.202:ERROR:device_event_log_impl.cc(195)] [15:57:33.200] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+5월 06, 2024 15:57:33.222 [396:9292:0506/155733.222:ERROR:device_event_log_impl.cc(195)] [15:57:33.221] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+5월 06, 2024 15:57:33.252 [396:9292:0506/155733.252:ERROR:device_event_log_impl.cc(195)] [15:57:33.251] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: �궗�슜 媛��뒫�븳 �뜲�씠�꽣媛� �뾾�뒿�땲�떎. (0x103)
+5월 06, 2024 15:57:33.383 [396:9292:0506/155733.383:ERROR:device_event_log_impl.cc(195)] [15:57:33.382] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+5월 06, 2024 15:57:35.747 [396:26596:0506/155735.747:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+5월 06, 2024 15:57:35.748 [396:26596:0506/155735.748:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+5월 06, 2024 15:57:35.748 [396:26596:0506/155735.748:ERROR:checkin_request.cc(243)] Check-in request got net error: -109
+5월 06, 2024 15:58:01.942 [396:26596:0506/155801.942:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5월 06, 2024 15:58:03.979 [396:26596:0506/155803.979:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+5월 06, 2024 15:58:03.979 [396:26596:0506/155803.979:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+5월 06, 2024 16:02:42.883 [396:26596:0506/160242.881:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+
+5월 08, 2024 16:54:30.265 NEW SESSION
+5월 08, 2024 16:54:30.265 [3448:23648:0508/165430.255:ERROR:device_event_log_impl.cc(195)] [16:54:30.256] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+5월 08, 2024 16:54:30.796 Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 08, 2024 17:24:55.774 [3448:16472:0508/172455.772:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5월 08, 2024 17:36:53.161 [3448:16472:0508/173653.161:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+5월 08, 2024 18:20:08.706 [3448:16472:0508/182008.706:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5월 08, 2024 21:23:57.346 [3448:16472:0508/212357.346:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+5월 09, 2024 09:43:38.323 [3448:17272:0509/094338.318:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_TIMED_OUT)
+5월 09, 2024 09:43:38.355 [3448:23648:0509/094338.355:ERROR:device_event_log_impl.cc(195)] [09:43:38.342] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+5월 09, 2024 09:43:38.365 [3448:23648:0509/094338.364:ERROR:device_event_log_impl.cc(195)] [09:43:38.363] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+5월 09, 2024 09:43:38.366 [3448:23648:0509/094338.366:ERROR:device_event_log_impl.cc(195)] [09:43:38.365] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: �궗�슜 媛��뒫�븳 �뜲�씠�꽣媛� �뾾�뒿�땲�떎. (0x103)
+5월 09, 2024 09:43:38.381 [3448:23648:0509/094338.381:ERROR:device_event_log_impl.cc(195)] [09:43:38.381] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+5월 09, 2024 09:43:39.300 [3448:16472:0509/094339.300:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+5월 09, 2024 09:54:51.626 [3448:16472:0509/095451.626:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+5월 09, 2024 09:56:21.434 [3448:16472:0509/095621.434:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+5월 09, 2024 10:21:52.621 [9204:21816:0509/102152.621:ERROR:device_event_log_impl.cc(195)] [10:21:52.620] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+5월 09, 2024 10:21:53.113 Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 09, 2024 10:22:14.599 [9204:25824:0509/102214.598:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -118
+5월 09, 2024 10:22:56.790 [9204:25824:0509/102256.789:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -118
+5월 09, 2024 10:31:44.553 [9204:25824:0509/103144.553:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5월 09, 2024 10:42:28.848 [9204:25824:0509/104228.848:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+5월 09, 2024 11:45:17.213 [9204:25824:0509/114517.213:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5월 09, 2024 11:52:57.939 [9204:25824:0509/115257.939:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+5월 09, 2024 12:51:28.902 [9204:25824:0509/125128.902:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5월 09, 2024 13:26:17.501 [9204:25824:0509/132617.501:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5월 09, 2024 14:26:39.325 [9204:25824:0509/142639.325:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+5월 09, 2024 15:29:34.900 [9204:25824:0509/152934.900:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5월 09, 2024 15:38:11.885 [9204:25824:0509/153811.884:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+5월 09, 2024 16:10:54.395 [9204:15304:0509/161054.395:ERROR:cert_verify_proc_builtin.cc(1052)] CertVerifyProcBuiltin for global.ib-ibi.com failed:
+5월 09, 2024 16:10:54.395 ----- Certificate i=0 (CN=*.ib-ibi.com,O=KBM Group LLC,L=Louisville,ST=Colorado,C=US) -----
+5월 09, 2024 16:10:54.396 ERROR: Time is after notAfter
+5월 09, 2024 16:10:54.396 
+5월 09, 2024 16:10:54.396 
+5월 09, 2024 16:12:37.292 [19676:14524:0509/161237.292:ERROR:device_event_log_impl.cc(195)] [16:12:37.293] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+5월 09, 2024 16:12:37.482 Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 09, 2024 16:17:25.956 [19676:14524:0509/161725.956:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+5월 09, 2024 16:17:25.956 [19676:14524:0509/161725.956:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+5월 09, 2024 17:01:21.762 [19676:14524:0509/170121.762:ERROR:device_event_log_impl.cc(195)] [17:01:21.762] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+5월 09, 2024 17:01:21.772 [19676:14524:0509/170121.771:ERROR:device_event_log_impl.cc(195)] [17:01:21.772] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: �궗�슜 媛��뒫�븳 �뜲�씠�꽣媛� �뾾�뒿�땲�떎. (0x103)
+5월 09, 2024 17:01:21.887 [19676:14524:0509/170121.887:ERROR:device_event_log_impl.cc(195)] [17:01:21.885] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+5월 09, 2024 17:27:54.276 [19676:4052:0509/172754.275:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5월 09, 2024 17:34:40.944 [19676:4052:0509/173440.944:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+5월 09, 2024 18:20:11.590 [19676:4052:0509/182011.590:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5월 09, 2024 18:20:13.961 [19676:4052:0509/182013.961:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5월 10, 2024 09:40:27.152 [19676:20104:0510/094027.152:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_TIMED_OUT)
+5월 10, 2024 09:40:27.368 [19676:14524:0510/094027.368:ERROR:device_event_log_impl.cc(195)] [09:40:27.368] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+5월 10, 2024 09:40:27.412 [19676:14524:0510/094027.412:ERROR:device_event_log_impl.cc(195)] [09:40:27.389] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: �궗�슜 媛��뒫�븳 �뜲�씠�꽣媛� �뾾�뒿�땲�떎. (0x103)
+5월 10, 2024 09:40:27.486 [19676:14524:0510/094027.486:ERROR:device_event_log_impl.cc(195)] [09:40:27.486] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: �궗�슜 媛��뒫�븳 �뜲�씠�꽣媛� �뾾�뒿�땲�떎. (0x103)
+5월 10, 2024 09:40:27.495 [19676:14524:0510/094027.494:ERROR:device_event_log_impl.cc(195)] [09:40:27.493] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+5월 10, 2024 10:25:14.496 [19676:4052:0510/102514.496:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5월 10, 2024 10:25:17.157 [19676:4052:0510/102517.157:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -15
+5월 10, 2024 10:49:46.350 [19676:4052:0510/104946.349:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+5월 10, 2024 10:51:21.181 [19676:4052:0510/105121.181:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -109
+5월 10, 2024 10:57:09.486 [19676:14524:0510/105709.486:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+5월 10, 2024 10:57:09.487 [19676:14524:0510/105709.486:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost

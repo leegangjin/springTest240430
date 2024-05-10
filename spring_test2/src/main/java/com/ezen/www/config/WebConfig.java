@@ -12,7 +12,7 @@ public class WebConfig extends AbstractAnnotationConfigDispatcherServletInitiali
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
 		// TODO Auto-generated method stub
-		return new Class[] {RootConfig.class};
+		return new Class[] {RootConfig.class, SecurityConfig.class};
 	}
 
 	@Override
@@ -42,6 +42,8 @@ public class WebConfig extends AbstractAnnotationConfigDispatcherServletInitiali
 		// 그외 기타 사용자 설정
 		// 파일 업로드 설정
 		// 사용자 지정 익셉션 처리 설정
+		
+		registration.setInitParameter("throwExceptionIfNoHandlerFound", "true");
 		String uploadLocation ="C:\\myProject\\java\\fileUpload";
 		int maxFileSize = 1024*1024*20; //20M
 		int maxReqSize = maxFileSize*2;
